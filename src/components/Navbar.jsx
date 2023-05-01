@@ -26,17 +26,17 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="px-4 cursor-pointer">
-            <Link to="author" smooth duration={500} className="hover:text-gray-400">
+            <Link to="travel" smooth duration={500} className="hover:text-gray-400">
               Travel
             </Link>
           </li>
           <li className="px-4 cursor-pointer">
-            <Link to="blog" smooth duration={500} className="hover:text-gray-400">
+            <Link to="fashiontips" smooth duration={500} className="hover:text-gray-400">
               Fashion Tips
             </Link>
           </li>
           <li className="px-4 cursor-pointer">
-            <Link to="about" smooth duration={500} className="hover:text-gray-400">
+            <Link to="technology" smooth duration={500} className="hover:text-gray-400">
               Technology
             </Link>
           </li>
@@ -65,18 +65,18 @@ const Navbar = () => {
       </Link>
     </li>
     <li className="py-2 cursor-pointer">
-      <Link to="author" smooth duration={500} onClick={() => setNav(false)}>
-        Author
+      <Link to="travel" smooth duration={500} onClick={() => setNav(false)}>
+      Travel
       </Link>
     </li>
     <li className="py-2 cursor-pointer">
-      <Link to="blog" smooth duration={500} onClick={() => setNav(false)}>
-        Blog
+      <Link to="fashiontips" smooth duration={500} onClick={() => setNav(false)}>
+        Fashion Tips
       </Link>
     </li>
     <li className="py-2 cursor-pointer">
-      <Link to="about" smooth duration={500} onClick={() => setNav(false)}>
-        About
+      <Link to="technology" smooth duration={500} onClick={() => setNav(false)}>
+        Technology
       </Link>
     </li>
     <li className="py-2 cursor-pointer">

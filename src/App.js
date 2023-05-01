@@ -1,13 +1,14 @@
 // import { BrowserRouter } from "react-router-dom";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import About from "./components/About";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
-import Author from "./components/Author";
+// import Author from "./components/Author";
 import SocialLinks from "./components/SocialLinks";
-import Blog from "./components/Blog";
+import Fashion from "./components/FashionTips";
 import Contact from "./components/Contact";
+import Travel from "./components/Travel";
+import Technology from "./components/Technology";
 
 
 function App() {
@@ -16,11 +17,12 @@ function App() {
       <Navbar />
       <Home />
       <SocialLinks />
-      <Author />
-      <Blog />
-      <About />
+      {/* <Author /> */}
+
+      <Travel/>
+      <Fashion />
+      <Technology/>
       <Contact />
-      
       </div>
   );
 }
